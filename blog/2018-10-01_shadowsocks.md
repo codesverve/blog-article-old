@@ -1,5 +1,5 @@
 # shadowsocks docker 镜像实现代理 - 服务端（搭建代理服务器）
-===============
+-------------
 
 基于Ubuntu 18.04 / Ubuntu 16.04测试，这里记录的是代理服务器的搭建，需要有一台境外的linux(各种发行版本的都行，只要能安装docker)服务器
 docker 安装见 https://blog.csdn.net/Vincent_Field/article/details/82086197

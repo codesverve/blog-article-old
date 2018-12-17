@@ -1,5 +1,5 @@
 # shadowsocks docker 镜像实现代理 - 客户端（Ubuntu电脑访问服务器使用代理）
-===============
+-------------
 
 基于Ubuntu 18.04测试，这里记录的是客户端使用代理的方式，服务端搭建代理服务器的移步
 docker 安装见 https://blog.csdn.net/Vincent_Field/article/details/82086197
