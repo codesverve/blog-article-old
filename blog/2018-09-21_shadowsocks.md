@@ -1,9 +1,9 @@
 # shadowsocks docker 镜像实现代理 - 客户端（Ubuntu电脑访问服务器使用代理）
 -------------
 
-基于Ubuntu 18.04测试，这里记录的是Ubuntu客户端使用代理的方式，服务端搭建代理服务器的移步。
-<p>docker 安装见 https://blog.csdn.net/Vincent_Field/article/details/82086197 </p>
-<p>Windows系统的话，已经有现成的软件[Windows系统客户端](https://raw.githubusercontent.com/Uetty/uetty.github.io/master/blog/影梭Win.zip)，该教程也就没有意义了</p>。
+基于Ubuntu 18.04测试，这里记录的是Ubuntu客户端使用代理的方式，服务端搭建代理服务器的移步  
+docker 安装见 https://blog.csdn.net/Vincent_Field/article/details/82086197  
+Windows系统的话，已经有现成的软件[Windows系统客户端](https://raw.githubusercontent.com/Uetty/uetty.github.io/master/blog/影梭Win.zip)，该教程也就没有意义了  
 
 
 ## 镜像获取
