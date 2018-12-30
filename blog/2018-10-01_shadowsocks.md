@@ -44,5 +44,6 @@ docker pull uetty/shadowsocks:server
 
 ### 尝试使用客户端连接服务器端代理
 
-> [windows系统客户端](./影梭Win.zip)
+> [windows系统客户端](https://raw.githubusercontent.com/Uetty/uetty.github.io/master/blog/影梭Win.zip)
+>
 > [Ubuntu系统客户端教程](./2018-09-21_shadowsocks.md)
