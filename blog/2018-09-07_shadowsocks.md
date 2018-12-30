@@ -2,7 +2,7 @@
 -------------
 
 基于Ubuntu 18.04测试，这里记录的是Ubuntu客户端使用代理的方式，服务端搭建代理服务器的移步  
-Windows系统的话，已经有现成的软件[Windows系统客户端](https://raw.githubusercontent.com/Uetty/uetty.github.io/master/blog/影梭Win.zip)，该教程也就没有意义了  
+Windows系统的话，已经有现成的软件（[Windows系统客户端](https://raw.githubusercontent.com/Uetty/uetty.github.io/master/blog/影梭Win.zip)），该教程也就没有意义了  
 
 ## 安装
 -----------
