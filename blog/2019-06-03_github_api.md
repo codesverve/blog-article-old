@@ -6,7 +6,7 @@
 
 1. 基础认证方式 `curl -u "username" https://api.github.com`或者`curl -u username:token https://api.github.com/user`
 2. OAuth认证方式`curl -H "Authorization: token OAUTH-TOKEN" https://api.github.com`
-3. Client ID 和 Client Secret认证``
+3. Client ID 和 Client Secret认证`curl -i 'https://api.github.com/users/whatever?client_id=xxxx&client_secret=yyyy'`
 
 ### 认证TOKEN及Client ID
 
