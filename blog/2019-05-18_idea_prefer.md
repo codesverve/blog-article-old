@@ -19,4 +19,17 @@
 ## 其他
 
 1. 鼠标悬浮方法显示文档(Editor -> General => Show quick documentation on mouse move) ：打勾 
+
 2. 代码字体大小调大到14(Editor -> Font -> Size)
+
+3. Idea插件：CodeGlance（缩略图）、Rainbow Brackets（彩色括号）
+
+4. File Header(Editor -> File and Code Templates -> Includes -> File Header)
+
+   ```
+   /**
+    *
+    * @Author: Vince
+    * @Date: ${DATE} ${TIME}
+    */
+   ```
