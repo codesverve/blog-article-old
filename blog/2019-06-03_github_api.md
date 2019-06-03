@@ -19,7 +19,7 @@
 
 ## 请求头要求
 
-1. 请求头携带属性`User-Agent`
+1. 请求头携带属性`User-Agent`[链接](<https://developer.github.com/v3/#user-agent-required>)
 
 
 
