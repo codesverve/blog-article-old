@@ -2,10 +2,17 @@
 
 ## 认证机制 [链接](<https://developer.github.com/v3/#authentication>)
 
-1. 基础认证方式 `curl -u "username" https://api.github.com`
+### 认证方式
+
+1. 基础认证方式 `curl -u "username" https://api.github.com`或者`curl -u username:token https://api.github.com/user`
 2. OAuth认证方式`curl -H "Authorization: token OAUTH-TOKEN" https://api.github.com`
+3. Client ID 和 Client Secret认证``
 
+### 认证TOKEN及Client ID
 
+TOKEN：进入github账号`settings` -> `Personal access tokens` -> `Generate new token`生成token，开启repo的权限
+
+Client ID：进入github账号`settings` -> `OAuth Apps` 
 
 ## 频率限制
 
@@ -13,7 +20,7 @@
 2. 每次请求，响应头中都会返回`X-RateLimit`、`X-RateLimit-Remaining`、`X-RateLimit-Reset`参数，更新限制数量、剩余数量、刷新时间的
 3. 在search中，对于basic authentication、OAuth、或者client_id和secret的，每分钟最多可以有30个请求。未经验证的请求，每分钟最多10个请求。[链接](<https://developer.github.com/v3/search/#rate-limit>)
 4. 单个用户的所有令牌，每小时共享5000个请求。[链接](<https://developer.github.com/v3/#rate-limiting>)
-5. 请求参数增加`client_id`和`client_secret`可增加频率限制
+5. 经过认证的请求会增加一定量频率限制
 
 
 
