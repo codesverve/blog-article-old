@@ -145,7 +145,7 @@ curl https://api.github.com/search/code?q=addClass+in:file+language:js+repo:jque
 
 **接受匹配偏移**
 
-请求头中增加`Accept: application/vnd.github.v3.text-match+json`参数，将会在响应信息中而外接收到`text-matches`字段信息，text-matches是一组列表，列表内对象包含`object_url`、`object_type`、`property`、`fragment`、`matches`
+请求头中增加`Accept: application/vnd.github.v3.text-match+json`参数，将会在响应信息中额外接收到`text-matches`字段信息，text-matches是一组列表，列表内对象包含`object_url`、`object_type`、`property`、`fragment`、`matches`，它们用来表示查询字符串在代码中的匹配位置。[链接](<https://developer.github.com/v3/search/#text-match-metadata>)
 
 
 
