@@ -50,7 +50,7 @@ GET /search/repositories
 
 **示例**
 
-通用的查询
+通用的搜索
 
 ```
 curl https://api.github.com/search/repositories?q=tetris+language:assembly&sort=stars&order=desc
@@ -258,4 +258,6 @@ GET /search/labels
 curl -H 'Accept: application/vnd.github.symmetra-preview+json' \
 'https://api.github.com/search/labels?repository_id=64778136&q=bug+defect+enhancement'
 ```
+
+
 
