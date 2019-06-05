@@ -16,4 +16,6 @@
 9. [多线程加锁原则与死锁分析](./blog/2019-03-07_lock.md)
 10. [RabbitMQ笔记](./blog/2019-04-22_rabbitmq.md)
 11. [事务隔离级别](./blog/2019-05-01_transaction_isolation.md)
-12. [IDEA个人习惯设置](./blog/2019-05-18_idea_prefer.md)
+12. [自定义注入类处理器](./blog/2019-05-24_spring_autowire_resolver.md)
+13. [IDEA个人习惯设置](./blog/2019-05-18_idea_prefer.md)
+14. [Mybatis分页插件](./blog/2019-05-30_mybatis_pager.md)
