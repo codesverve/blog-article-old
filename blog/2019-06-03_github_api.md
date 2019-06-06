@@ -30,6 +30,15 @@ Client ID：进入github账号`settings` -> `OAuth Apps`
 
 
 
+## 响应头
+
+1. `Location` 重定向，根据code判断是永久重定向还是临时重定向：`301` - 永久重定向，`302`/`307` - 临时重定向
+2. `Retry-After` 请求频率超限后会出现
+3. `X-RateLimit`、`X-RateLimit-Remaining`、`X-RateLimit-Reset`请求频率限制描述
+4. code：`400` - JSON错误 Bad Request，`422` - 字段非法
+
+
+
 ## API接口 [链接](<https://developer.github.com/v3/search/>)
 
 ### 1. 搜索仓库
