@@ -13,6 +13,7 @@
 9. 代码格式化(Keymap -> Main Menu -> Code -> Reformat Code) ：Ctrl + Shift + F
 10. 重命名(Keymap -> Main Menu -> Refactor -> Rename...) ： Alt + Shift + R
 11. 全局查找(Keymap -> Main Menu -> Edit -> Find -> Find in Path...)：Ctrl + Shift + P
+12. 返回或前进到上次光标所在处(Keymap -> Main Menu -> Navigate -> Back / Forward)：Alt + 向左箭头/向右箭头
 
 
 
