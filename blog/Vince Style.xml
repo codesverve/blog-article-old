@@ -1,0 +1,85 @@
+<keymap version="1" name="Vince Style" parent="Default for GNOME">
+  <action id="Arrangement.Alias.Rule.Match.Condition.Move.Up" />
+  <action id="Arrangement.Rule.Match.Condition.Move.Down" />
+  <action id="Arrangement.Rule.Match.Condition.Move.Up" />
+  <action id="Back">
+    <keyboard-shortcut first-keystroke="alt left" />
+    <mouse-shortcut keystroke="button4" />
+  </action>
+  <action id="ChangesView.Diff" />
+  <action id="ChangesView.GroupBy.Directory" />
+  <action id="ChoosePrevSubsequentPropertyValueEditorAction" />
+  <action id="CodeCompletion">
+    <keyboard-shortcut first-keystroke="alt slash" />
+  </action>
+  <action id="CompareTwoFiles" />
+  <action id="Diff.NextChange" />
+  <action id="Diff.PrevChange" />
+  <action id="Diff.ShowDiff" />
+  <action id="EditorDeleteLine">
+    <keyboard-shortcut first-keystroke="ctrl d" />
+  </action>
+  <action id="EditorDuplicate" />
+  <action id="EditorDuplicateLines">
+    <keyboard-shortcut first-keystroke="ctrl down" />
+  </action>
+  <action id="EditorLookupDown" />
+  <action id="EditorScrollDown" />
+  <action id="ExpressionTypeInfo" />
+  <action id="FileChooser.GotoDesktop" />
+  <action id="FileChooser.TogglePathShowing" />
+  <action id="Find">
+    <keyboard-shortcut first-keystroke="ctrl f" />
+  </action>
+  <action id="FindInPath">
+    <keyboard-shortcut first-keystroke="ctrl p" />
+  </action>
+  <action id="FindUsages">
+    <keyboard-shortcut first-keystroke="ctrl u" />
+  </action>
+  <action id="Forward">
+    <keyboard-shortcut first-keystroke="alt right" />
+    <mouse-shortcut keystroke="button5" />
+  </action>
+  <action id="GotoSuperMethod">
+    <keyboard-shortcut first-keystroke="alt s" />
+  </action>
+  <action id="HippieCompletion">
+    <keyboard-shortcut first-keystroke="ctrl alt slash" />
+  </action>
+  <action id="MethodDown" />
+  <action id="MethodOverloadSwitchDown" />
+  <action id="MethodUp" />
+  <action id="MoveStatementDown">
+    <keyboard-shortcut first-keystroke="alt down" />
+  </action>
+  <action id="MoveStatementUp">
+    <keyboard-shortcut first-keystroke="alt up" />
+  </action>
+  <action id="NextTab" />
+  <action id="ParameterInfo" />
+  <action id="PreviousTab" />
+  <action id="ReformatCode">
+    <keyboard-shortcut first-keystroke="shift ctrl f" />
+  </action>
+  <action id="RenameElement">
+    <keyboard-shortcut first-keystroke="shift alt r" />
+  </action>
+  <action id="ReplaceInPath">
+    <keyboard-shortcut first-keystroke="shift ctrl p" />
+  </action>
+  <action id="RerunTests" />
+  <action id="RunDashboard.CopyConfiguration" />
+  <action id="SearchEverywhere.NavigateToNextGroup">
+    <keyboard-shortcut first-keystroke="page_down" />
+  </action>
+  <action id="SendEOF" />
+  <action id="ShowContent" />
+  <action id="ShowSearchHistory" />
+  <action id="SmartTypeCompletion" />
+  <action id="TodoViewGroupByShowPackages" />
+  <action id="XDebugger.CopyWatch" />
+  <action id="XDebugger.MoveWatchDown" />
+  <action id="XDebugger.MoveWatchUp" />
+  <action id="openAssertEqualsDiff" />
+</keymap>

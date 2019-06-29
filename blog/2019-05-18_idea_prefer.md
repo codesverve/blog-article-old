@@ -14,6 +14,9 @@
 10. 重命名(Keymap -> Main Menu -> Refactor -> Rename...) ： Alt + Shift + R
 11. 全局查找(Keymap -> Main Menu -> Edit -> Find -> Find in Path...)：Ctrl + Shift + P
 12. 返回或前进到上次光标所在处(Keymap -> Main Menu -> Navigate -> Back / Forward)：Alt + 向左箭头/向右箭头
+13. 显示层级关系(Keymap -> Main Menu -> Navigate -> Type Hierarchy)：Ctrl + H
+14. 定位到继承代码(Keymap -> Main Menu -> Navigate -> Implementation(s))：Ctrl + Alt + Button1 Click
+15. 定位到声明代码(Keymap -> Main Menu -> Navigate -> Declaration)：Ctrl + Button1 Click
 
 
 
@@ -34,3 +37,15 @@
     * @Date: ${DATE} ${TIME}
     */
    ```
+
+
+
+## 快捷键配置导入导出
+
+快捷键配置文件位置[快捷键配置](./bog/Vince Style.xml)
+
+```
+Linux：~/.IdeaIC2019.1/config/keymaps/
+Windows：C:\Users\Administrator/.IdeaIC2019.1/config/keymaps/
+```
+
