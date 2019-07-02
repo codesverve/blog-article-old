@@ -17,6 +17,7 @@
 13. 显示层级关系(Keymap -> Main Menu -> Navigate -> Type Hierarchy)：Ctrl + H
 14. 定位到继承代码(Keymap -> Main Menu -> Navigate -> Implementation(s))：Ctrl + Alt + Button1 Click
 15. 定位到声明代码(Keymap -> Main Menu -> Navigate -> Declaration)：Ctrl + Button1 Click
+16. 删除Java文件不用的依赖(Keymap -> Main Menu -> Code -> Optimize Imports)：Ctrl + Shift + O
 
 
 
@@ -24,11 +25,13 @@
 
 1. 鼠标悬浮方法显示文档(Editor -> General => Show quick documentation on mouse move) ：打勾 
 
-2. 代码字体大小调大到14(Editor -> Font -> Size)
+2. 自动为Java文件添加明确的导入依赖(Editor -> General -> Auto Import => Add unambiguous imports on the fly)：打勾
 
-3. Idea插件：CodeGlance（缩略图）、Rainbow Brackets（彩色括号）
+3. 代码字体大小调大到14(Editor -> Font -> Size)
 
-4. File Header(Editor -> File and Code Templates -> Includes -> File Header)
+4. Idea插件：CodeGlance（缩略图）、Rainbow Brackets（彩色括号）
+
+5. File Header(Editor -> File and Code Templates -> Includes -> File Header)
 
    ```
    /**
