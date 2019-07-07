@@ -37,6 +37,8 @@
 
 16. <a href="./blog/2019-06-13_redis_loophole.md" data-blog-id="MB-19061301" data-from-id="">利用Redis写文件提权登陆linux的漏洞</a>
 
-[//]: <> "<a href="./blog/2019-06-13_redis_loophole.md" data-blog-id="MB-19061301" data-from-id="" style="display: none;">Test</a>"
+<!-- hidden blog
+<a href="./blog/2019-06-13_redis_loophole.md" data-blog-id="MB-19061301" data-from-id="" style="display: none;">Test</a>
+-->
 
 
