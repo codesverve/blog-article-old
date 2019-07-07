@@ -5,6 +5,9 @@
 
 ## INDEX
 
+<!-- hidden blog demo
+-->
+
 1. <a href="./blog/2018-08-28_docker.md" data-blog-id="MB-18082801" data-from-id="">DOCKER教程</a>
 
 2. <a href="./blog/2018-09-07_shadowsocks.md" data-blog-id="MB-18090701" data-from-id="">Ubuntu下shadowsocks代理客户端安装步骤</a>
@@ -37,8 +40,6 @@
 
 16. <a href="./blog/2019-06-13_redis_loophole.md" data-blog-id="MB-19061301" data-from-id="">利用Redis写文件提权登陆linux的漏洞</a>
 
-<!-- hidden blog
-<a href="./blog/2019-06-13_redis_loophole.md" data-blog-id="MB-19061301" data-from-id="" style="display: none;">Test</a>
--->
+
 
 
