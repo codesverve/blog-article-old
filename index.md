@@ -21,5 +21,6 @@
 14. <a href="./blog/2019-05-30_mybatis_pager.md" data-blog-id="MB-19053001" data-from-id="">Mybatis分页插件</a>
 15. <a href="./blog/2019-06-12_javap_demo.md" data-blog-id="MB-19061201" data-from-id="">JAVAP 反汇编字节码案例</a>
 16. <a href="./blog/2019-06-13_redis_loophole.md" data-blog-id="MB-19061301" data-from-id="">利用Redis写文件提权登陆linux的漏洞</a>
+17. <a href="./blog/2019-06-13_redis_loophole.md" data-blog-id="MB-19061301" data-from-id="" style="display: none;">Test</a>
 
 
