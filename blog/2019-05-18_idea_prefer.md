@@ -45,7 +45,7 @@
 
 ## 快捷键配置导入导出
 
-快捷键配置文件位置[快捷键配置](./bog/Vince Style.xml)
+快捷键配置文件位置[快捷键配置](./Vince Style.xml)
 
 ```
 Linux：~/.IdeaIC2019.1/config/keymaps/
