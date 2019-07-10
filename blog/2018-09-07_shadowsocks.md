@@ -1,5 +1,4 @@
 # Ubuntu shadowsocks 客户端代理记录（本地端用ubuntu setting替代chrome浏览器插件）
--------------
 
 基于Ubuntu 18.04测试，这里记录的是Ubuntu客户端使用代理的方式，服务端搭建代理服务器的移步  
 Windows系统的话，已经有现成的软件（[Windows系统客户端](https://raw.githubusercontent.com/Uetty/uetty.github.io/master/blog/影梭Win.zip)），该教程也就没有意义了  
@@ -13,7 +12,7 @@ Windows系统的话，已经有现成的软件（[Windows系统客户端](https:
 * sudo vim /etc/shadowsocks.json
 
 输入以下内容后保存
- 
+
 >
 > {
 >     "server":"xx.xx.xx.xx", // 远程服务器地址
@@ -65,4 +64,4 @@ sudo sslocal -c /etc/shadowsocks.json -d start      启动服务（以后可以�
 
 参考自：https://blog.csdn.net/lee_j_r/article/details/54019691
 主要不同点： chrome浏览器代理（修改理由：在没有代理之前，不能打开插件市场安装管理插件，因此修改了代理方式）
- 
+
