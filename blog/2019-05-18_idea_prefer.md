@@ -18,6 +18,7 @@
 14. 定位到继承代码(Keymap -> Main Menu -> Navigate -> Implementation(s))：Ctrl + Alt + Button1 Click
 15. 定位到声明代码(Keymap -> Main Menu -> Navigate -> Declaration)：Ctrl + Button1 Click
 16. 删除Java文件不用的依赖(Keymap -> Main Menu -> Code -> Optimize Imports)：Ctrl + Shift + O
+17. 显示参数列表(Keymap  -> Main Menu -> View -> Parameter Info)：Alt + P
 
 
 
@@ -27,11 +28,15 @@
 
 2. 自动为Java文件添加明确的导入依赖(Editor -> General -> Auto Import => Add unambiguous imports on the fly)：打勾
 
-3. 代码字体大小调大到14(Editor -> Font -> Size)
+3. 自动提示中显示参数列表(Editor -> General -> Code Completion => Parameter => Show parameter name hints on completion)：打勾
 
-4. Idea插件：CodeGlance（缩略图）、Rainbow Brackets（彩色括号）
+4. 自动提示中显示文档（与参数列表择一足矣）(Editor-> General -> Code Completion => Show the Documentation popup in 1000 ms)：打勾
 
-5. File Header(Editor -> File and Code Templates -> Includes -> File Header)
+5. 代码字体大小调大到14(Editor -> Font -> Size)
+
+6. Idea插件：CodeGlance（缩略图）、Rainbow Brackets（彩色括号）
+
+7. File Header(Editor -> File and Code Templates -> Includes -> File Header)
 
    ```
    /**

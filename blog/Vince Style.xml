@@ -6,6 +6,7 @@
     <keyboard-shortcut first-keystroke="alt left" />
     <mouse-shortcut keystroke="button4" />
   </action>
+  <action id="ChangesView.AddUnversioned" />
   <action id="ChangesView.Diff" />
   <action id="ChangesView.GroupBy.Directory" />
   <action id="ChoosePrevSubsequentPropertyValueEditorAction" />
@@ -41,6 +42,10 @@
     <keyboard-shortcut first-keystroke="alt right" />
     <mouse-shortcut keystroke="button5" />
   </action>
+  <action id="Generate">
+    <keyboard-shortcut first-keystroke="alt insert" />
+    <keyboard-shortcut first-keystroke="shift alt enter" />
+  </action>
   <action id="GotoSuperMethod">
     <keyboard-shortcut first-keystroke="alt s" />
   </action>
@@ -57,7 +62,13 @@
     <keyboard-shortcut first-keystroke="alt up" />
   </action>
   <action id="NextTab" />
-  <action id="ParameterInfo" />
+  <action id="OptimizeImports">
+    <keyboard-shortcut first-keystroke="ctrl alt o" />
+    <keyboard-shortcut first-keystroke="shift ctrl o" />
+  </action>
+  <action id="ParameterInfo">
+    <keyboard-shortcut first-keystroke="alt p" />
+  </action>
   <action id="PreviousTab" />
   <action id="ReformatCode">
     <keyboard-shortcut first-keystroke="shift ctrl f" />
