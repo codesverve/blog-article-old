@@ -5,9 +5,23 @@
 
 ## INDEX
 
-<!-- hidden blog demo <a href="./blog/2018-08-28_docker.md" data-blog-id="MB-18082801" data-origin-id="">DOCKER教程</a>
-<a href="./blog/2018-08-28_docker.md" data-blog-id="MB-18082801" data-origin-id="">DOCKER教程</a>
--->
+<!-- <a href="./blog/2017-03-19_maven_filter.md" data-blog-id="MB-17031901">使用jks文件，本地运行没问题，打包到服务器出现java.io.IOException: Invalid keystore format</a> -->
+
+<!-- <a href="./blog/2017-05-20_spring_redis.md" data-blog-id="MB-17052001">关于spring redis 缓存配置错误的问题</a> -->
+
+<!-- <a href="./blog/2017-07-27_threadlocal_request.md" data-blog-id="MB-17072701">SpringMVC 在controller层中注入request不会产生线程安全问题</a> -->
+
+<!-- <a href="./blog/2017-08-18_spring_xml_xstream.md" data-blog-id="MB-17081801">spring基于xml格式数据交换的前后端配置与使用之xstream方式</a> -->
+
+<!-- <a href="./blog/2017-08-18_spring_xml_jackson.md" data-blog-id="MB-17081802">spring基于xml格式数据交换的前后端配置与使用之Jackson方式</a> -->
+
+<!-- <a href="./blog/2018-06-09_ubuntu_wps.md" data-blog-id="MB-18060901">Ubuntu下wps开多个窗口的方法</a> -->
+
+<!-- <a href="./blog/2017-09-30_css_display.md" data-blog-id="MB-17093001" >CSS属性display的inline、block、inline-block的区别</a> -->
+
+<!-- <a href="./blog/2017-12-22_mysql_worktime.md" data-blog-id="MB-17122201">mysql计算两个日期间的工作时长（剔除周末，设定上班时间）</a> -->
+
+<!-- <a href="./blog/2018-11-15_dubbo_retry_policy.md" data-blog-id="MB-18111501">dubbo启动时class not found org/apache/curator/RetryPolicy</a> -->
 
 1. <a href="./blog/2018-08-28_docker.md" data-blog-id="MB-18082801" data-origin-id="">DOCKER教程</a>
 
