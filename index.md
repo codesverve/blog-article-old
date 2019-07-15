@@ -21,9 +21,9 @@
 
 <!-- <a href="./blog/2017-12-22_mysql_worktime.md" data-blog-id="MB-17122201">mysql计算两个日期间的工作时长（剔除周末，设定上班时间）</a> -->
 
-<!-- <a href="./blog/2018-02-25_spring_autowire_resolver.md" data-blog-id="MB-18022501" data-origin-id="MB-19052401">自定义注入类处理器</a> -->
+<!-- <a href="./blog/2018-02-25_spring_autowire_resolver.md" data-blog-id="MB-18022501" data-origin-id="">自定义注入类处理器</a> -->
 
-<!-- <a href="./blog/2018-03-24_mybatis_pager.md" data-blog-id="MB-18032401" data-origin-id="MB-19053001">Mybatis分页插件</a> -->
+<!-- <a href="./blog/2018-03-24_mybatis_pager.md" data-blog-id="MB-18032401" data-origin-id="">Mybatis分页插件</a> -->
 
 <!-- <a href="./blog/2018-11-15_dubbo_retry_policy.md" data-blog-id="MB-18111501">dubbo启动时class not found org/apache/curator/RetryPolicy</a> -->
 
@@ -47,7 +47,7 @@
 
 10. <a href="./blog/2019-04-22_rabbitmq.md" data-blog-id="MB-19042201" data-origin-id="">RabbitMQ笔记</a>
 
-11. <a href="./blog/2018-03-10_transaction_isolation.md" data-blog-id="MB-18031001" data-origin-id="MB-19050101">事务隔离级别</a>
+11. <a href="./blog/2018-03-10_transaction_isolation.md" data-blog-id="MB-18031001" data-origin-id="">事务隔离级别</a>
 
 12. <a href="./blog/2019-05-18_idea_prefer.md" data-blog-id="MB-19051801" data-origin-id="">IDEA个人习惯设置</a>
 
