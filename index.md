@@ -59,4 +59,5 @@
 
 15. <a href="./blog/2019-07-10_timezone.md" data-blog-id="MB-19071001" data-origin-id="">Java及Ubuntu操作系统时区</a>
 
+16. <a href="./blog/2019-07-16_java_garbage_collector.md" data-blog-id="MB-19071601">JAVA垃圾收集器</a>
 
