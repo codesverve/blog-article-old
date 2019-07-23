@@ -36,7 +36,11 @@
 
 6. Idea插件：CodeGlance（缩略图）、Rainbow Brackets（彩色括号）
 
-7. File Header(Editor -> File and Code Templates -> Includes -> File Header)
+7. 新项目默认编码设置(File => Other Settings => Settings for New Projects... -> Editor -> File Encodings => Global Encoding和Project Encoding)：UTF-8
+
+8. 新项目默认JDK设置(File => Other Settings => Structure for New Projects... -> Project Settings -> Platform Settings)：点击加号添加jdk，其后 >>  设置版本(Project Settings -> Project => Project SDK)：选择环境及默认版本级别
+
+9. 文件头注释模板：File Header(Editor -> File and Code Templates -> Includes -> File Header)
 
    ```
    /**
@@ -46,7 +50,33 @@
     */
    ```
 
+10. 通过特殊字符触发的方法注释模板(Editor -> Live Templates)：右边加号新加一个Template Group与Live Template
 
+   ![1563424237182](./MB19051801-1.png)
+
+   Abbreviation框填入`*`，Expand with选择回车，TemplateText填入生成的字符串
+
+   ```
+   *
+    * 
+   $PARAM$
+    * @return : $RETURN$
+    * @author : Vince
+    * @date : $DATE$ $TIME$
+    */
+   ```
+
+   字符串中包含`$PARAM$`、`$RETURN$`、`$DATE$`、`$TIME$`等变量，点击`Edit variables`编辑变量如下
+
+   ![1563424815258](./MB19051801-2.png)
+
+   其中PARAM使用groovy脚本添加参数
+
+   ```
+   groovyScript("def result=''; def params=\"${_1}\".replaceAll('[\\\\[|\\\\]|\\\\s]', '').split(',').toList(); for(i = 0; i < params.size(); i++) {result+=' * @param ' + params[i] + ((i < params.size() - 1) ? '\\n':'')}; return result", methodParameters())
+   ```
+
+   
 
 ## 快捷键配置导入导出
 
