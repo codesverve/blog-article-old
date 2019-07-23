@@ -1,28 +1,30 @@
 # IDEA习惯偏好设置 
 
-## 快捷键
+## 快捷键偏好设置
 
-1. 查找(Keymap -> Main Menu -> Edit -> Find -> Find...) ：Ctrl + F
-2. 复制上一行到下一行(Keymap -> Edit Actions -> Duplicate Entire Lines) ： Ctrl + 向下箭头
-3. 移动代码到上一行(Keymap -> Main Menu -> Code -> Move Statement Up) ： Alt + 向上箭头
-4. 移动代码到下一行(Keymap -> Main Menu -> Code -> Move Statement Down) ： Alt + 向下箭头
-5. 删除一行(Keymap -> Editor Actions -> Delete Line) ： Ctrl + D
-6. 调出代码提示(Keymap -> Main Menu -> Code -> Completion -> Basic) ： Alt + /
-7. 自动补全返回变量(Keymap -> Main Menu -> Refactor -> Extract -> Variable...) ： Ctrl + 1
-8. 显示代码在哪里被使用(Keymap -> Main Menu -> Edit -> Find -> Find Usages) ： Ctrl + U 
-9. 代码格式化(Keymap -> Main Menu -> Code -> Reformat Code) ：Ctrl + Shift + F
-10. 重命名(Keymap -> Main Menu -> Refactor -> Rename...) ： Alt + Shift + R
-11. 全局查找(Keymap -> Main Menu -> Edit -> Find -> Find in Path...)：Ctrl + Shift + P
+1. 查找(Keymap -> Main Menu -> Edit -> Find -> Find...) ：Ctrl + F    【速记：find】 
+2. 复制上一行到下一行(Keymap -> Edit Actions -> Duplicate Entire Lines) ： Ctrl + 向下箭头 
+3. 移动代码到上一行(Keymap -> Main Menu -> Code -> Move Statement Up) ： Alt + 向上箭头 
+4. 移动代码到下一行(Keymap -> Main Menu -> Code -> Move Statement Down) ： Alt + 向下箭头 
+5. 删除一行(Keymap -> Editor Actions -> Delete Line) ： Ctrl + D    【速记：delete】 
+6. 调出代码提示(Keymap -> Main Menu -> Code -> Completion -> Basic) ： Alt + / 
+7. 自动补全返回变量(Keymap -> Main Menu -> Refactor -> Extract -> Variable...) ： Ctrl + 1 
+8. 显示代码在哪里被使用(Keymap -> Main Menu -> Edit -> Find -> Find Usages) ： Ctrl + U     【速记：Usage】 
+9. 代码格式化(Keymap -> Main Menu -> Code -> Reformat Code) ：Ctrl + Shift + F    【速记：format】 
+10. 重命名(Keymap -> Main Menu -> Refactor -> Rename...) ： Alt + Shift + R    【速记：refact】 
+11. 全局查找(Keymap -> Main Menu -> Edit -> Find -> Find in Path...)：Ctrl + P    【速记：path】 
 12. 返回或前进到上次光标所在处(Keymap -> Main Menu -> Navigate -> Back / Forward)：Alt + 向左箭头/向右箭头
-13. 显示层级关系(Keymap -> Main Menu -> Navigate -> Type Hierarchy)：Ctrl + H
+13. 显示层级关系(Keymap -> Main Menu -> Navigate -> Type Hierarchy)：Ctrl + H    【速记：hierarchy】 
 14. 定位到继承代码(Keymap -> Main Menu -> Navigate -> Implementation(s))：Ctrl + Alt + Button1 Click
 15. 定位到声明代码(Keymap -> Main Menu -> Navigate -> Declaration)：Ctrl + Button1 Click
 16. 删除Java文件不用的依赖(Keymap -> Main Menu -> Code -> Optimize Imports)：Ctrl + Shift + O
-17. 显示参数列表(Keymap  -> Main Menu -> View -> Parameter Info)：Alt + P
+17. 显示参数列表(Keymap  -> Main Menu -> View -> Parameter Info)：Alt + P    【速记：parameter】 
 
+18. 取消双击shift更改为其他键([双击shift] -> Actions)：输入registry... >> 其后选择点击`registry...`项 >> 找到`ide.suppress.double.click.handler`键名，右边打勾禁止双击shift处理 >> close >> 设置新快捷键(File => Settings... -> Keymap -> Other -> Search Everywhere不是文件夹项)：Ctrl + W    【速记：watch或where】 
 
+CTRL为基础组合键，与ALT相关的组合键通常是代码修改的辅助有关
 
-## 其他
+## 其他偏好设置
 
 1. 鼠标悬浮方法显示文档(Editor -> General => Show quick documentation on mouse move) ：打勾 
 
@@ -36,9 +38,9 @@
 
 6. Idea插件：CodeGlance（缩略图）、Rainbow Brackets（彩色括号）
 
-7. 新项目默认编码设置(File => Other Settings => Settings for New Projects... -> Editor -> File Encodings => Global Encoding和Project Encoding)：UTF-8
+7. 新项目默认编码设置(File => Other Settings => Settings for New Projects... -> Editor -> File Encodings => Global Encoding和Project Encoding)：UTF-8        [已创建的项目，在File => Project Structure...设置]
 
-8. 新项目默认JDK设置(File => Other Settings => Structure for New Projects... -> Project Settings -> Platform Settings)：点击加号添加jdk，其后 >>  设置版本(Project Settings -> Project => Project SDK)：选择环境及默认版本级别
+8. 新项目默认JDK设置(File => Other Settings => Structure for New Projects... -> Project Settings -> Platform Settings)：点击加号添加jdk，其后 >>  设置版本(Project Settings -> Project => Project SDK)：选择环境及默认版本级别        [已创建的项目，在File => Project Structure...设置]
 
 9. 文件头注释模板：File Header(Editor -> File and Code Templates -> Includes -> File Header)
 
@@ -77,6 +79,12 @@
    ```
 
    
+
+## 操作
+
+File => Settings... => Keymap页面中：输入框输入用于匹配文字，输入框右侧按钮用于匹配快捷键，修改快捷键时，点击修改项，悬浮框中可选择设置键盘快捷键触发、设置鼠标配合Ctrl等键触发、缩写触发
+
+
 
 ## 快捷键配置导入导出
 
