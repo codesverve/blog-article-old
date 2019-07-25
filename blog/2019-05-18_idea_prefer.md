@@ -20,7 +20,7 @@
 16. 删除Java文件不用的依赖(Keymap -> Main Menu -> Code -> Optimize Imports)：Ctrl + Shift + O
 17. 显示参数列表(Keymap  -> Main Menu -> View -> Parameter Info)：Alt + P    【速记：parameter】 
 
-18. 取消双击shift更改为其他键([双击shift] -> Actions)：输入registry... >> 其后选择点击`registry...`项 >> 找到`ide.suppress.double.click.handler`键名，右边打勾禁止双击shift处理 >> close >> 设置新快捷键(File => Settings... -> Keymap -> Other -> Search Everywhere不是文件夹项)：Ctrl + W    【速记：watch或where】 
+18. 取消双击shift更改为其他键(双击shift -> Actions)：输入registry... >> 其后选择点击`registry...`项 >> 找到`ide.suppress.double.click.handler`键名，右边打勾禁止双击shift处理 >> close >> 设置新快捷键(File => Settings... -> Keymap -> Other -> Search Everywhere不是文件夹项)：Ctrl + W    【速记：watch或where】 
 
 CTRL为基础组合键，与ALT相关的组合键通常是代码修改的辅助有关
 
