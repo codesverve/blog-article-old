@@ -30,29 +30,33 @@ CTRL为基础组合键，与ALT相关的组合键通常是代码修改的辅助�
 
 2. 自动为Java文件添加明确的导入依赖(Editor -> General -> Auto Import => Add unambiguous imports on the fly)：打勾
 
-3. 自动提示中显示参数列表(Editor -> General -> Code Completion => Parameter => Show parameter name hints on completion)：打勾
+3. 自动补全中显示字段名称提示(Editor -> General -> Code Completion => Parameter => Show parameter name hints on completion)：打勾
 
-4. 自动提示中显示文档（与参数列表择一足矣）(Editor-> General -> Code Completion => Show the Documentation popup in 1000 ms)：打勾
+4. 方法常量变量显示参数名称提示(Editor -> General -> Appearance => Show parameter name hints)：打勾
 
-5. 代码字体大小调大到14(Editor -> Font -> Size)
+5. 显示链式调用方法的参数提示(Editor -> General -> Appearance => Show chain call type hints)：打勾
 
-6. Idea插件：CodeGlance（缩略图）、Rainbow Brackets（彩色括号）
+6. 自动提示中显示文档（与参数列表择一足矣）(Editor-> General -> Code Completion => Show the Documentation popup in 1000 ms)：打勾
 
-7. 新项目默认编码设置(File => Other Settings => Settings for New Projects... -> Editor -> File Encodings => Global Encoding和Project Encoding)：UTF-8        [已创建的项目，在File => Project Structure...设置]
+7. 代码字体大小调大到14(Editor -> Font -> Size)
 
-8. 新项目默认JDK设置(File => Other Settings => Structure for New Projects... -> Project Settings -> Platform Settings)：点击加号添加jdk，其后 >>  设置版本(Project Settings -> Project => Project SDK)：选择环境及默认版本级别        [已创建的项目，在File => Project Structure...设置]
+8. Idea插件：CodeGlance（缩略图）、Rainbow Brackets（彩色括号）
 
-9. 文件头注释模板：File Header(Editor -> File and Code Templates -> Includes -> File Header)
+9. 新项目默认编码设置(File => Other Settings => Settings for New Projects... -> Editor -> File Encodings => Global Encoding和Project Encoding)：UTF-8        [已创建的项目，在File => Project Structure...设置]
 
-   ```
-   /**
-    *
-    * @Author: Vince
-    * @Date: ${DATE} ${TIME}
-    */
-   ```
+10. 新项目默认JDK设置(File => Other Settings => Structure for New Projects... -> Project Settings -> Platform Settings)：点击加号添加jdk，其后 >>  设置版本(Project Settings -> Project => Project SDK)：选择环境及默认版本级别        [已创建的项目，在File => Project Structure...设置]
 
-10. 通过特殊字符触发的方法注释模板(Editor -> Live Templates)：右边加号新加一个Template Group与Live Template
+11. 文件头注释模板：File Header(Editor -> File and Code Templates -> Includes -> File Header)
+
+    ```
+    /**
+     *
+     * @Author: Vince
+     * @Date: ${DATE} ${TIME}
+     */
+    ```
+
+12. 通过特殊字符触发的方法注释模板(Editor -> Live Templates)：右边加号新加一个Template Group与Live Template
 
    ![1563424237182](./MB19051801-1.png)
 
