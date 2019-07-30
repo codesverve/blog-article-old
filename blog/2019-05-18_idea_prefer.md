@@ -32,7 +32,7 @@ CTRL为基础组合键，与ALT相关的组合键通常是代码修改的辅助�
 
 3. 自动补全中显示字段名称提示(Editor -> General -> Code Completion => Parameter => Show parameter name hints on completion)：打勾
 
-4. 方法常量变量显示参数名称提示(Editor -> General -> Appearance => Show parameter name hints)：打勾
+4. 方法常量变量显示参数名称提示(Editor -> General -> Appearance => Show parameter name hints)：打勾 >> 点开右边Configure配置页面，Do not开头的取消打勾，Show开头的打勾
 
 5. 显示链式调用方法的参数提示(Editor -> General -> Appearance => Show chain call type hints)：打勾
 
@@ -46,7 +46,9 @@ CTRL为基础组合键，与ALT相关的组合键通常是代码修改的辅助�
 
 10. 新项目默认JDK设置(File => Other Settings => Structure for New Projects... -> Project Settings -> Platform Settings)：点击加号添加jdk，其后 >>  设置版本(Project Settings -> Project => Project SDK)：选择环境及默认版本级别        [已创建的项目，在File => Project Structure...设置]
 
-11. 文件头注释模板：File Header(Editor -> File and Code Templates -> Includes -> File Header)
+11. 行代码显示最后提交信息[Other Settings -> Git ToolBox Global => General -> Show editor inline 'Blame']：打勾
+
+12. 文件头注释模板：File Header(Editor -> File and Code Templates -> Includes -> File Header)
 
     ```
     /**
@@ -56,7 +58,7 @@ CTRL为基础组合键，与ALT相关的组合键通常是代码修改的辅助�
      */
     ```
 
-12. 通过特殊字符触发的方法注释模板(Editor -> Live Templates)：右边加号新加一个Template Group与Live Template
+13. 通过特殊字符触发的方法注释模板(Editor -> Live Templates)：右边加号新加一个Template Group与Live Template
 
    ![1563424237182](./MB19051801-1.png)
 
