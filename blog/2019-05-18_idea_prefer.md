@@ -48,7 +48,9 @@ CTRL为基础组合键，与ALT相关的组合键通常是代码修改的辅助�
 
 11. 行代码显示最后提交信息[Other Settings -> Git ToolBox Global => General -> Show editor inline 'Blame']：打勾
 
-12. 文件头注释模板：File Header(Editor -> File and Code Templates -> Includes -> File Header)
+12. 方法之间显示分割线[Editor -> General -> Appearance => Show method separator]：打勾
+
+13. 文件头注释模板：File Header(Editor -> File and Code Templates -> Includes -> File Header)
 
     ```
     /**
@@ -58,7 +60,7 @@ CTRL为基础组合键，与ALT相关的组合键通常是代码修改的辅助�
      */
     ```
 
-13. 通过特殊字符触发的方法注释模板(Editor -> Live Templates)：右边加号新加一个Template Group与Live Template
+14. 通过特殊字符触发的方法注释模板(Editor -> Live Templates)：右边加号新加一个Template Group与Live Template
 
    ![1563424237182](./MB19051801-1.png)
 
