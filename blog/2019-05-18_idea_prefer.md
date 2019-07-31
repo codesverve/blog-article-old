@@ -32,7 +32,7 @@ CTRL为基础组合键，与ALT相关的组合键通常是代码修改的辅助�
 
 3. 自动补全中显示字段名称提示(Editor -> General -> Code Completion => Parameter => Show parameter name hints on completion)：打勾
 
-4. 方法常量变量显示参数名称提示(Editor -> General -> Appearance => Show parameter name hints)：打勾 >> 点开右边Configure配置页面，Do not开头的取消打勾，Show开头的打勾
+4. 方法常量变量显示参数名称提示(Editor -> General -> Appearance => Show parameter name hints)：打勾 >> 点开右边Configure配置页面，Language选Java，Do not开头的取消打勾，Show开头的打勾
 
 5. 显示链式调用方法的参数提示(Editor -> General -> Appearance => Show chain call type hints)：打勾
 
