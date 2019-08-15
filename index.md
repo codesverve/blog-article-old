@@ -66,3 +66,6 @@
 18. <a href="./blog/2019-07-29_Source_List_Vector_COWList.md" data-blog-id="MB-19072901">ArrayList、Vector、CopyOnWriteArrayList的区别</a>
 
 19. <a href="./blog/2019-07-31_Common_Excel.md" data-blog-id="MB-19073101">Common-Excel，阿里Easy Excel升级，样式注解Excel生成</a>
+
+20. <a href="./blog/2019-08-15_LOG4J.md" data-blog-id="MB-19081501">log4j xml配置文件个人配置如何不污染GIT远程仓库</a>
+
