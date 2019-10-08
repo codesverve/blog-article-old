@@ -5,14 +5,14 @@ javap 命令可将Java class文件反汇编为字节码，借助该命令可排�
 ## bug案例问题介绍
 
 ```
-GithubTokenManager.GithubTokenRenter tokenRenter = null;
-        GithubSearchCodeVo vo = null;
+MyTokenManager.MyTokenRenter tokenRenter = null;
+        MySearchCodeVo vo = null;
         try {
-            tokenRenter = tokenManager.tryGetAvailableToken(GET_TOKEN_DELAY, GithubTokenManager.RentType.SEARCH_CODE);
+            tokenRenter = tokenManager.tryGetAvailableToken(GET_TOKEN_DELAY, MyTokenManager.RentType.SEARCH_CODE);
             if (tokenRenter == null) {
                 return null;
             }
-            GithubToken token = tokenRenter.getToken();
+            MyToken token = tokenRenter.getToken();
             vo = searchCodeList(keywords, scopes, page, perPage, token.getToken());
             return vo;
         } finally {
@@ -37,7 +37,7 @@ Integer getRetryAfter();
 使用javap命令对class文件进行反汇编，生成字节码
 
 ```
-javap -c com.xxxx.xxxx.Githubxxxx
+javap -c com.xxxx.xxxx.Myxxxx
 ```
 
 得到字节码信息，字节码中相关代码如下
@@ -49,8 +49,8 @@ javap -c com.xxxx.xxxx.Githubxxxx
        4: astore        6
        6: aload         4
        8: ldc2_w        #122                // long 4000l
-      11: getstatic     #124                // Field com/xxx/service/github/GithubTokenManager$RentType.SEARCH_CODE:Lcom/xxx/service/github/GithubTokenManager$RentType;
-      14: invokevirtual #125                // Method com/xxx/service/github/GithubTokenManager.tryGetAvailableToken:(JLcom/xxx/service/github/GithubTokenManager$RentType;)Lcom/xxx/service/github/GithubTokenManager$GithubTokenRenter;
+      11: getstatic     #124                // Field com/xxx/service/im/MyTokenManager$RentType.SEARCH_CODE:Lcom/xxx/service/im/MyTokenManager$RentType;
+      14: invokevirtual #125                // Method com/xxx/service/im/MyTokenManager.tryGetAvailableToken:(JLcom/xxx/service/im/MyTokenManager$RentType;)Lcom/xxx/service/im/MyTokenManager$MyTokenRenter;
       17: astore        5
       19: aload         5
       21: ifnonnull     94
@@ -62,7 +62,7 @@ javap -c com.xxxx.xxxx.Githubxxxx
       34: aload         6
       36: ifnull        50
       39: aload         6
-      41: invokevirtual #126                // Method com/xxx/store/vo/github/GithubSearchCodeVo.getRateLimitRemain:()Ljava/lang/Integer;
+      41: invokevirtual #126                // Method com/xxx/store/vo/im/MySearchCodeVo.getRateLimitRemain:()Ljava/lang/Integer;
       44: invokevirtual #14                 // Method java/lang/Integer.intValue:()I
       47: goto          51
       50: iconst_1
@@ -70,7 +70,7 @@ javap -c com.xxxx.xxxx.Githubxxxx
       54: aload         6
       56: ifnull        70
       59: aload         6
-      61: invokevirtual #127                // Method com/xxx/store/vo/github/GithubSearchCodeVo.getRateLimitReset:()Ljava/lang/Long;
+      61: invokevirtual #127                // Method com/xxx/store/vo/im/MySearchCodeVo.getRateLimitReset:()Ljava/lang/Long;
       64: invokevirtual #51                 // Method java/lang/Long.longValue:()J
       67: goto          71
       70: lconst_0
@@ -78,23 +78,23 @@ javap -c com.xxxx.xxxx.Githubxxxx
       74: aload         6
       76: ifnull        87
       79: aload         6
-      81: invokevirtual #128                // Method com/xxx/store/vo/github/GithubSearchCodeVo.getRetryAfter:()Ljava/lang/Integer;
+      81: invokevirtual #128                // Method com/xxx/store/vo/im/MySearchCodeVo.getRetryAfter:()Ljava/lang/Integer;
       84: goto          88
       87: aconst_null
-      88: invokevirtual #129                // Method com/xxx/service/github/GithubTokenManager$GithubTokenRenter.giveBackToken:(Ljava/lang/Integer;Ljava/lang/Long;Ljava/lang/Integer;)V
+      88: invokevirtual #129                // Method com/xxx/service/im/MyTokenManager$MyTokenRenter.giveBackToken:(Ljava/lang/Integer;Ljava/lang/Long;Ljava/lang/Integer;)V
       91: aload         7
       93: areturn
       94: aload         5
-      96: invokevirtual #130                // Method com/xxx/service/github/GithubTokenManager$GithubTokenRenter.getToken:()Ljava/lang/Object;
-      99: checkcast     #131                // class com/xxx/store/vo/github/GithubToken
+      96: invokevirtual #130                // Method com/xxx/service/im/MyTokenManager$MyTokenRenter.getToken:()Ljava/lang/Object;
+      99: checkcast     #131                // class com/xxx/store/vo/im/MyToken
      102: astore        7
      104: aload_0
      105: aload_1
      106: iload_2
      107: iload_3
      108: aload         7
-     110: invokevirtual #132                // Method com/xxx/store/vo/github/GithubToken.getToken:()Ljava/lang/String;
-     113: invokestatic  #133                // Method searchCodeList:(Ljava/lang/String;Ljava/lang/String;IILjava/lang/String;)Lcom/xxx/store/vo/github/GithubSearchCodeVo;
+     110: invokevirtual #132                // Method com/xxx/store/vo/im/MyToken.getToken:()Ljava/lang/String;
+     113: invokestatic  #133                // Method searchCodeList:(Ljava/lang/String;Ljava/lang/String;IILjava/lang/String;)Lcom/xxx/store/vo/im/MySearchCodeVo;
      116: astore        6
      118: aload         6
      120: astore        8
@@ -104,7 +104,7 @@ javap -c com.xxxx.xxxx.Githubxxxx
      129: aload         6
      131: ifnull        145
      134: aload         6
-     136: invokevirtual #126                // Method com/xxx/store/vo/github/GithubSearchCodeVo.getRateLimitRemain:()Ljava/lang/Integer;
+     136: invokevirtual #126                // Method com/xxx/store/vo/im/MySearchCodeVo.getRateLimitRemain:()Ljava/lang/Integer;
      139: invokevirtual #14                 // Method java/lang/Integer.intValue:()I
      142: goto          146
      145: iconst_1
@@ -112,7 +112,7 @@ javap -c com.xxxx.xxxx.Githubxxxx
      149: aload         6
      151: ifnull        165
      154: aload         6
-     156: invokevirtual #127                // Method com/xxx/store/vo/github/GithubSearchCodeVo.getRateLimitReset:()Ljava/lang/Long;
+     156: invokevirtual #127                // Method com/xxx/store/vo/im/MySearchCodeVo.getRateLimitReset:()Ljava/lang/Long;
      159: invokevirtual #51                 // Method java/lang/Long.longValue:()J
      162: goto          166
      165: lconst_0
@@ -120,10 +120,10 @@ javap -c com.xxxx.xxxx.Githubxxxx
      169: aload         6
      171: ifnull        182
      174: aload         6
-     176: invokevirtual #128                // Method com/xxx/store/vo/github/GithubSearchCodeVo.getRetryAfter:()Ljava/lang/Integer;
+     176: invokevirtual #128                // Method com/xxx/store/vo/im/MySearchCodeVo.getRetryAfter:()Ljava/lang/Integer;
      179: goto          183
      182: aconst_null
-     183: invokevirtual #129                // Method com/xxx/service/github/GithubTokenManager$GithubTokenRenter.giveBackToken:(Ljava/lang/Integer;Ljava/lang/Long;Ljava/lang/Integer;)V
+     183: invokevirtual #129                // Method com/xxx/service/im/MyTokenManager$MyTokenRenter.giveBackToken:(Ljava/lang/Integer;Ljava/lang/Long;Ljava/lang/Integer;)V
      186: aload         8
      188: areturn
      189: astore        9
@@ -133,7 +133,7 @@ javap -c com.xxxx.xxxx.Githubxxxx
      198: aload         6
      200: ifnull        214
      203: aload         6
-     205: invokevirtual #126                // Method com/xxx/store/vo/github/GithubSearchCodeVo.getRateLimitRemain:()Ljava/lang/Integer;
+     205: invokevirtual #126                // Method com/xxx/store/vo/im/MySearchCodeVo.getRateLimitRemain:()Ljava/lang/Integer;
      208: invokevirtual #14                 // Method java/lang/Integer.intValue:()I
      211: goto          215
      214: iconst_1
@@ -141,7 +141,7 @@ javap -c com.xxxx.xxxx.Githubxxxx
      218: aload         6
      220: ifnull        234
      223: aload         6
-     225: invokevirtual #127                // Method com/xxx/store/vo/github/GithubSearchCodeVo.getRateLimitReset:()Ljava/lang/Long;
+     225: invokevirtual #127                // Method com/xxx/store/vo/im/MySearchCodeVo.getRateLimitReset:()Ljava/lang/Long;
      228: invokevirtual #51                 // Method java/lang/Long.longValue:()J
      231: goto          235
      234: lconst_0
@@ -149,10 +149,10 @@ javap -c com.xxxx.xxxx.Githubxxxx
      238: aload         6
      240: ifnull        251
      243: aload         6
-     245: invokevirtual #128                // Method com/xxx/store/vo/github/GithubSearchCodeVo.getRetryAfter:()Ljava/lang/Integer;
+     245: invokevirtual #128                // Method com/xxx/store/vo/im/MySearchCodeVo.getRetryAfter:()Ljava/lang/Integer;
      248: goto          252
      251: aconst_null
-     252: invokevirtual #129                // Method com/xxx/service/github/GithubTokenManager$GithubTokenRenter.giveBackToken:(Ljava/lang/Integer;Ljava/lang/Long;Ljava/lang/Integer;)V
+     252: invokevirtual #129                // Method com/xxx/service/im/MyTokenManager$MyTokenRenter.giveBackToken:(Ljava/lang/Integer;Ljava/lang/Long;Ljava/lang/Integer;)V
      255: aload         9
      257: athrow
 ```
